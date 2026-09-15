@@ -1,26 +1,13 @@
-
 # protseqr
 
-<!-- badges: start -->
-<!-- badges: end -->
+`protseqr`, protein birincil yapı sekansları üzerinde fizikokimyasal ve biyoinformatik analizler gerçekleştirmek amacıyla geliştirilmiş hafif ve modüler bir R paketidir.
 
-The goal of protseqr is to ...
+## Özellikler
 
-## Installation
+- **GRAVY (Grand Average of Hydropathy) Skoru:** Kyte-Doolittle ölçeğini temel alarak proteinlerin hidrofobik karakterini hesaplar.
+- **Girdi Doğrulama:** Geçersiz amino asit karakterleri ve hatalı veri formatları için yerleşik hata yakalama mekanizmaları.
+- **Birim Testleri:** `testthat` mimarisiyle tam test kapsamı.
 
-You can install the development version of protseqr from [GitHub](https://github.com/) with:
+## Kurulum
 
-``` r
-# install.packages("pak")
-pak::pak("efecan4255sys/protseqr")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(protseqr)
-## basic example code
-```
-
+Paketi GitHub üzerinden doğrudan kurmak için `devtools` veya `remotes` kullanabilirsiniz:
